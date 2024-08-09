@@ -1,0 +1,14 @@
+-- Using Union for appending two tables on top of each other
+WITH cte AS(
+SELECT * From bike_share_yr_0
+UNION ALL
+SELECT * From bike_share_yr_1
+)
+
+SELECT dteday, a.yr, weekday, hr, rider_type, riders, price, COGS, riders*price revenue, 
+riders*price - COGS profit 
+FROM cte a
+LEFT JOIN cost_table b
+ON a.yr = b.yr
+
+
