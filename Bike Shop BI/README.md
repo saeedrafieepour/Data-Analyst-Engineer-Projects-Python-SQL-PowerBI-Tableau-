@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/6c9b41b6-ac52-4825-a611-53872c3e107f)
 
 # The report shows the sales analysis including KPI over time for a Bike Shop.
 Analysis on Toman Bikes Shop Performance 
